@@ -9,8 +9,6 @@ pipeline {
         stage('Pre Test'){
             steps{
                sh 'go version'
-               sh 'go get -u github.com/golang/dep/cmd/dep'
-               sh 'cd $GOPATH/src/cmd/project && dep ensure'
             }
         }
         stage('Build'){
