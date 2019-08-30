@@ -21,9 +21,5 @@ pipeline {
                 sh 'go test -v'
             }
         }
-        stage("Archive artifacts") {
-            // Archive the binary files in Jenkins so we can retrieve them later should we need to audit them
-            archiveArtifacts artifacts: 'binaries/**', fingerprint: true
-        }
     }
 }

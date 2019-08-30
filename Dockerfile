@@ -1,5 +1,7 @@
+
 # Start from the latest golang base image
-FROM golang:1.12.9-alpine3.10
+FROM golang:latest
+
 # Add Maintainer Info
 LABEL maintainer="Jirayu Thapadit <jirayu.dragon@gmail.com>"
 
