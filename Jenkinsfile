@@ -4,7 +4,7 @@ pipeline {
     }
     environment {
             GO111MODULE = 'on'
-        }git status
+    }
     stages {
         stage('Pre Test'){
             echo 'Pulling Dependencies'
