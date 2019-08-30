@@ -1,4 +1,4 @@
-package helloword
+package go_docker
 
 import "fmt"
 
@@ -8,5 +8,5 @@ func main() {
 
 // hello *should return Hello World!"
 func hello() string {
-	return "Goodbye Moon"
+	return "Hello World!"
 }
