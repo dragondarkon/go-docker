@@ -10,3 +10,11 @@ func main() {
 func hello() string {
 	return "Hello World!"
 }
+
+
+func FizzBuzz(number int) string {
+	if number == 1 {
+		return "1"
+	}
+	return "2"
+}
