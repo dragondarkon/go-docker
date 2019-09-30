@@ -1,4 +1,4 @@
-package go_docker
+package main
 
 import (
 	"testing"
@@ -13,7 +13,7 @@ func TestHello(t *testing.T) {
 
 func TestInput1ShouldBeDisplay1(t *testing.T) {
 	v := FizzBuzz(1) // --> (4)
-	if "1" != v { // --> 5
+	if "1" != v {    // --> 5
 		t.Error("fizzbuzz of 1 should be '1' but have", v) //
 	}
 }

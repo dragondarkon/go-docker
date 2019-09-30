@@ -1,4 +1,4 @@
-package go_docker
+package main
 
 import "fmt"
 
@@ -10,7 +10,6 @@ func main() {
 func hello() string {
 	return "Hello World!"
 }
-
 
 func FizzBuzz(number int) string {
 	if number == 1 {

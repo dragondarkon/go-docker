@@ -21,5 +21,10 @@ pipeline {
                 sh 'go test -v'
             }
         }
+        stage('Robot Test'){
+            steps{
+                sh 'robot automated_test/printHelloWorld.robot'
+            }
+        }
     }
 }
